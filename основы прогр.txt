@@ -1,0 +1,52 @@
+исправленные задачи 2 практической
+4.def s():
+    print("ввод чисел")
+    a=int(input())
+    b=int(input())
+    l=int(input())
+    n=int(input())
+    print("ответ:")
+    return (2*n-1)*a+2*l+2*(n-1)*b
+print(s())
+5.def w():
+    print("введите чила")
+    x=int(input())
+    y=int(input())
+    z=int(input())
+    print("ответ:")
+    return min(x,y,z)
+print(w())
+7.def w():
+    print("ввод числа")
+    year=int(input("год-"))
+    print("ответ")
+    if((year % 4==0 and year % 100 !=0)or year % 400==0):
+        return "да"
+    else:
+        return "нет"
+print(w())
+    
+8.def s():
+    print("ввод числа")
+    x=int(input())
+    y=int(input())
+    z=int(input())
+    print("ответ")
+    if (x==y==x):
+        return 3
+    elif(x==y or x==y or x==z):
+        return 2
+    else:
+        return 0
+print(s())
+9.def s():
+    print("ввод чисел")
+    n=int(input())
+    m=int(input())
+    k=int(input())
+    print("ответ")
+    if(n * m > k and (k % m == 0 or k % n == 0)):
+        return "да"
+    else:
+        return "нет"
+    print(s())
