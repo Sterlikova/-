@@ -32,9 +32,9 @@ print(w())
     y=int(input())
     z=int(input())
     print("ответ")
-    if (x==y==x):
+    if (x==y==z):
         return 3
-    elif(x==y or x==y or x==z):
+    elif(x==y or z==y or x==z):
         return 2
     else:
         return 0
