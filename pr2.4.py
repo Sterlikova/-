@@ -1,6 +1,0 @@
-a=int(input())
-b=int(input())
-i=int(input())
-n=int(input())
-s=((a*2+b*2)*(n-1)+i*2+a)
-print(s)
