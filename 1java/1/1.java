@@ -1,0 +1,11 @@
+// –еализовать программу, получающую на вход в качестве аргумента им€ человека и вывод€щую
+//УHello Ф + им€, в противном случае, если параметр не передавалс€ УHello worldФ. 
+public class Main {
+	public static void main(String[] args) {
+		if (args.length < 1) {
+		System.out.println("Hello World");
+		} else {
+		System.out.println("Hello " + args[0]);
+		}
+		}
+}
