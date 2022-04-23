@@ -1,11 +1,11 @@
-//Bapиaнт 4). Гocтиницa
-//Room – кoмнaтa:
-//Cвoйcтвa:
-//Id – идeнтификaтop;
-//codeNumbers – Koд нoмepa;
-//numberPeople – Koличecтвo чeлoвeк;
-//comfortType – Koмфopтнocть;
-//price – цeнa.
+//BapРёaРЅС‚ 4). Р“ocС‚РёРЅРёС†a
+//Room вЂ“ РєoРјРЅaС‚a:
+//CРІoР№cС‚РІa:
+//Id вЂ“ РёРґeРЅС‚РёС„РёРєaС‚op;
+//codeNumbers вЂ“ KoРґ РЅoРјepa;
+//numberPeople вЂ“ KoР»РёС‡ecС‚РІo С‡eР»oРІeРє;
+//comfortType вЂ“ KoРјС„opС‚РЅocС‚СЊ;
+//price вЂ“ С†eРЅa.
 public class Room {
 	private int Id;
     private int codeNumber;
@@ -51,6 +51,6 @@ public class Room {
         this.price = price;
     }
     public String toString(){
-        return "идентификатор-"+Id+"\n"+"код номера-"+codeNumber+"\n"+"количество человек-"+numberPeople+"\n"+"комфортность-"+comfortType+"/5"+"\n"+"цена-"+price+"руб."+"\n";
+        return "ГЁГ¤ГҐГ­ГІГЁГґГЁГЄГ ГІГ®Г°-"+Id+"\n"+"ГЄГ®Г¤ Г­Г®Г¬ГҐГ°Г -"+codeNumber+"\n"+"ГЄГ®Г«ГЁГ·ГҐГ±ГІГўГ® Г·ГҐГ«Г®ГўГҐГЄ-"+numberPeople+"\n"+"ГЄГ®Г¬ГґГ®Г°ГІГ­Г®Г±ГІГј-"+comfortType+"/5"+"\n"+"Г¶ГҐГ­Г -"+price+"Г°ГіГЎ."+"\n";
     }
 }
