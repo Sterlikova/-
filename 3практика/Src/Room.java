@@ -51,6 +51,6 @@ public class Room {
         this.price = price;
     }
     public String toString(){
-        return "èäåíòèôèêàòîð-"+Id+"\n"+"êîä íîìåðà-"+codeNumber+"\n"+"êîëè÷åñòâî ÷åëîâåê-"+numberPeople+"\n"+"êîìôîðòíîñòü-"+comfortType+"/5"+"\n"+"öåíà-"+price+"ðóá."+"\n";
+        return "индекатор-"+Id+"\n"+"Koд нoмepa-"+codeNumber+"\n"+"Koличecтвo чeлoвeк-"+numberPeople+"\n"+"Koмфopтнocть-"+comfortType+"/5"+"\n"+"цена-"+price+"руб."+"\n";
     }
 }
