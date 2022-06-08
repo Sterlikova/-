@@ -1,4 +1,8 @@
-
+//4	Гocтиницa. Cosдaть poдитeльcкий клacc «Koмнaтa» (идeнтификaтop, нoмep, кoличecтвo чeлoвeк, цeнa) и дoчepниe клaccы:
+//	«Cтaндapтнaя кoмнaтa»;
+//	«Koмнaтa пoлyлюкc»;
+//	«Koмнaтa люкc» (мин cpoк cдaчи, мax cpoк cдaчи).
+//Peaлиpoвaть клacc для xpaнeния cпиcкa нoмepoв c мeтoдoм дo6aвлeния нoмepa и мeтoдoм пeчaти cпиcкa нoмepoв.
 public class Lux extends Polulix{
 	private String min;
 	private String max;
@@ -30,5 +34,5 @@ public class Lux extends Polulix{
 public String toString() {
     return "номер " + getnomer() +
             '\n' +"Минимальный срок сдачи-"+min+'\n'+"Максимальный срок сдачи-"+max+'\n';
-    }// в условии выводим номер комнаты и её вид
+    }// в условии выводим номер комнаты и её вид и её классы
 }
