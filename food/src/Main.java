@@ -1,5 +1,5 @@
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+// Реализуйте систему заказов в ресторане, где фабричный метод используется для создания блюд разных кухонь (итальянская, китайская, мексиканская).
 public class Main {
     public static void main(String[] args) {
         FoodFactory italianFoodFactory = new ItalianFoodFactory();
